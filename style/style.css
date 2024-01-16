@@ -1,0 +1,257 @@
+body{
+    
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+*{ 
+    margin: 5px 5px;
+}
+
+/*nav style*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-head{
+    margin-left: 20px;
+    display: flex;
+    gap:0.1px;
+}
+
+.icon{
+    
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.dream-travel{
+    color: #131318;
+font-family: Mulish;
+font-size: 30px;
+font-weight: 800;
+margin-top: 5px;
+
+}
+.trvl{
+    color: #FF5400;
+}
+
+.ancor-tag ul{
+    display: flex;
+    gap: 0;
+}
+.ancor-tag li{
+    list-style: none;
+    margin-right: 10px;
+}
+.ancor-tag a{
+    text-decoration: none;
+}
+
+/*header section*/
+
+.header-section{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1190px;
+height: 500px;
+flex-shrink: 0;
+margin-left: 110px;
+border-radius: 10px;
+text-align: center;
+    
+}
+
+.Explore-Your-Travel{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+   
+}
+.head-pera{
+    color: #FFF;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.select-option input{
+    width: 174px;
+height: 32px;
+border-radius: 8px;
+background: #FFF;
+border: none; 
+
+}
+.btn-primary{
+    border-radius: 8px;
+background: #FF5400;
+width: 170px;
+height: 32px;
+color: #FFF;
+border: none;
+}
+
+/*main section*/
+
+main{
+    max-width: 1190px;
+    margin-left: 127px;
+
+}
+
+.main-1st-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.main-1st-img{
+    width: 540px;
+height: 550px;
+flex-shrink: 0;
+}
+.Our-Popular-Tours{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+
+}
+.Our-Popular-Tours-list{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.img-sec{
+    margin-top: 50px;
+    text-align: center;
+   
+}
+
+.fst-fst-img{
+display: flex;
+gap: 15px;
+margin-bottom: 15px;
+}
+.scnd-img-sec{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    
+}
+.thrd-img-sec{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.Destination{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.destination-pera{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+/*Why-Choose-Us*/
+.Why-Choose-Us{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.whychooseus-pera{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.container-1 {
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 10px 10px;
+
+}
+.container-2{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 10px 10px;
+}
+
+.container-3{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-left: 300px;
+padding: 10px 10px;
+}
+.con-img{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+
+.sub-container{
+    display: flex;
+}
+
+
+
+/*bonus section*/
+.love-img{width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+
+}
+.love-moment{
+    display: flex;
+   
+}
+.enjoyable-moment{
+    color: #131318;
+font-family: sans-serif;
+font-size: 54px;
+font-weight: 600;
+text-align: center;
+}
+
+.group-image-sec , .group-image-second-section{
+    display: flex;
+}
+.group-img-1st{
+    width: 573px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+}
+
