@@ -89,6 +89,15 @@ background: #FFF;
 border: none; 
 
 }
+
+.select-option{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
 .btn-primary{
     border-radius: 8px;
 background: #FF5400;
@@ -255,3 +264,130 @@ flex-shrink: 0;
 border-radius: 16px;
 }
 
+/*video-section*/
+
+.a-simple-perfect-place{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px; /* 150% */
+}
+.simple-discription{
+    color: #5A5A5D;
+font-family: Mulish;
+width: 532px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.simple-list{
+    color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+}
+
+.video-section{
+    margin-top: 50px;
+    display: flex;
+    
+}
+.video{
+    width: 610px;
+height: 424px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+/*book now*/
+
+.book-now{
+    display: flex;
+}
+
+.from{
+    display: flex;
+    flex-direction: column;
+    width: 474px;
+    height: 300px;
+background: #FFF;
+border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 50px 20px;
+
+}
+.address , .sub-btn{
+    margin-top: 15px;
+    width: 393px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 8px;
+border: none;
+background: rgba(19, 19, 24, 0.05);
+padding: 0 10px;
+}
+.sub-btn{
+background: #FF5400;
+text-align: center;
+color: #FFF;
+}
+
+
+.save-up{
+    width: 324px;
+    height: 100px;
+    transform: rotate(-25.628deg) translateX(400px) translateY(-40px) ;
+    flex-shrink: 0;
+    border-radius: 16px;
+background: #FF5400;
+text-align: center;
+color: #FFF;
+padding: 15px 0px;
+
+}
+
+footer{
+    width: 100%;
+height: 502px;
+flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05);
+text-align: center;
+}
+
+.footer-pera{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.nav-head-main{
+    padding-top: 80px;
+    padding-left: 600px;
+}
+.icons{
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+.icons img{
+    
+    width: 23px;
+height: 24px;
+flex-shrink: 0;
+
+}
+
+.copyright{
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+}
